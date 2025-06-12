@@ -1,3 +1,11 @@
+export const SUPPORTED_ENCODINGS: { [key: string]: { labelShort: string, [key: string]: any } } = {
+    'utf8': { labelShort: 'UTF-8', value: 'utf8' },
+    'cp850': { labelShort: 'CP850', value: 'cp850' }
+    // Adicione outros encodings suportados aqui
+};
+
+
+
 module.exports.SUPPORTED_ENCODINGS = {
 	utf8: {
 		labelLong: 'UTF-8',

@@ -1,6 +1,28 @@
-node_modules
-.vscode-test/
-*.vsix
-Dbf.vb
-test/harbour-generator/main.exe
-body.css
+# Dependencies
+/node_modules
+
+# Compiled JavaScript files
+/dist
+
+# Logs
+logs
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+
+# Environment variables
+.env
+.env.test
+.env.production
+
+# IDE / Editor specific
+.vscode/
+.idea/
+*.sublime-project
+*.sublime-workspace
+
+# OS generated files
+.DS_Store
+Thumbs.db
